@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.1",
+  "description": "Educational schema for instance-level visual annotation practice.",
+  "annotation": {
+    "object_class": "string",
+    "instance_id": "string",
+    "visibility": "fully_visible | partially_visible | occluded",
+    "evidence": "string",
+    "confidence": "high | medium | low"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "examples": [
+    {
+      "id": "day01-example-001",
+      "objects": [
+        {"class": "vehicle", "instance_id": "vehicle_01", "label": "car", "visibility": "fully_visible", "evidence": "Distinct car body is visibly present."},
+        {"class": "vehicle", "instance_id": "vehicle_02", "label": "car", "visibility": "partially_visible", "evidence": "A separate car is visibly present but substantially occluded/cropped."},
+        {"class": "vehicle", "instance_id": "vehicle_03", "label": "motorcycle", "visibility": "partially_visible", "evidence": "A distinct motorcycle is visibly present."}
+      ],
+      "instance_count": 3,
+      "reasoning": "Three distinct visible vehicle objects are present; visibility does not merge separate instances."
+    },
+    {
+      "id": "day01-example-002",
+      "objects": [
+        {"class": "animal", "instance_id": "animal_01", "label": "dog", "visibility": "partially_visible", "evidence": "The dog's head is visibly present."}
+      ],
+      "instance_count": 1,
+      "reasoning": "The visible dog is one distinct animal instance."
+    }
+  ]
+}
